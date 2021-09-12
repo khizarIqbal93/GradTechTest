@@ -18,9 +18,9 @@ medalResults = [
 ]
 
 def createMedalTable(results):
-    # Use the results object above to create a medal table
-    # The winner gets 3 points, second place 2 points and third place 1 point
+    #declare a dictionary/object table which will populated in for loop
     table = {}
+    #pointsRef is a lookup object. I used this in order to avoid multiple if statements inside for loop
     pointsRef = {
     "1": 3,
     "2": 2,
@@ -28,12 +28,16 @@ def createMedalTable(results):
     }
 
     for obj in medalResults:
+        #this outer for loop will go through each object
         for x in obj["podium"]:
+            #another for loop is used loop through array in object under the key of "podium"
             country = x[2:]
             points = pointsRef[x[0]]
+            #this if statement initializes the value of a newly added country to 0
             if not country in table:
                 table[country] = 0
             
+            # otherwise if country is already in table object, we can add on to the points
             table[country] += points
     
     return table
