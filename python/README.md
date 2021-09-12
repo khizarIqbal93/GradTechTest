@@ -1,6 +1,4 @@
-# Grad Tech Test - Python
-
-## I have attempted this test in python
+# Grad Tech Test
 
 ## Clone this repository
 
