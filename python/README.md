@@ -1,6 +1,6 @@
 # Grad Tech Test - Python
 
-## I have attempted this test in python!!
+## I have attempted this test in python
 
 ## Clone this repository
 

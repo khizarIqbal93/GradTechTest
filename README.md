@@ -1,18 +1,17 @@
-# Grad Tech Test
+# Grad Tech Test PYTHON
 
-In this repository, you'll find a selection of sub-folders with language titles. In each, there's a test for that language, chose one for your submission.
-
-## Clone this repository
-
-Use `git clone` to clone the repository locally, then change the remote, please do not fork this repository. To change the remote, use
+## 1. Clone the repo
 
 ```bash
-git remote set-url origin <path-to-your-blank-repository>
-git push -u origin <branch-name>
+git clone https://github.com/khizarIqbal93/GradTechTest.git
 ```
 
-## Tips
+## 2. `cd` into python folder
 
-When the test passes clean up your code.
-It's worth spending time formatting and simplifing things.
-It's more important that humans can read your code than computers.
+Run the tests by entering the following in your terminal:
+
+```bash
+pytest medals.py
+```
+
+### Thank you!
