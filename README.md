@@ -14,4 +14,4 @@ Run the tests by entering the following in your terminal:
 pytest medals.py
 ```
 
-### Thank you!
+### Thank you
